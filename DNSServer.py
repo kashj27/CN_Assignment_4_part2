@@ -96,10 +96,9 @@ dns_records = {
     'nyu.edu.': {
         dns.rdatatype.A: '192.168.1.106',
         dns.rdatatype.TXT: encrypted_value,
-        dns.rdatatype.AAAA: '2001:0db8:85a3:0000:0000:8a2e:0370:7334',
-        dns.rdatatype.MX: [(10, 'mail.nyu.edu.')],  # List of (preference, mail server) tuples
-        dns.rdatatype.CNAME: 'www.nyu.edu.',
-        dns.rdatatype.NS: 'ns.nyu.edu.',
+        dns.rdatatype.AAAA: '2600:9000:210b:da00:1:f7e2:cb00:93a1',
+        dns.rdatatype.MX: [(10, 'mxb-00256a01.gslb.pphosted.com.')],  # List of (preference, mail server) tuples
+        dns.rdatatype.NS: 'ns2.nyu.org.',
     },
 
     # Add more records as needed (see assignment instructions!
